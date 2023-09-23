@@ -7,35 +7,37 @@
   <a href="https://arxiv.org">arXiv</a>
 </h3>
 
-https://github.com/BubblyBingBong/PID/blob/main/sources/pid.mov
-
-![teaser](sources/pid.png)
+https://github.com/BubblyBingBong/PID/assets/56773653/a41a83c1-9365-4bb4-9c6a-360b56b39e51
 
 ## Table of Contents:
-1. [Highlights](#high)
-2. [News](#news)
-3. [Getting Started](#start)
-4. [Anaysis](#analysis)
-5. [TODO](#todos)
-6. [License](#license)
-7. [Citation](#citation)
-8. [Resource](#resource)
+1. [Abstract](#abstract)
+2. [Anaysis](#analysis)
+3. [News](#news)
+4. [TODO](#todos)
+5. [License](#license)
+6. [Citation](#citation)
+7. [Resource](#resource)
 
-## Highlights <a name="high"></a>
+## Abstract <a name="high"></a>
 
-- 🤖 Creating a simulation of a system enables the tuning of control systems without the need for a physical system. In this paper, we employ Lagrangian Mechanics to derive a set of equations to simulate an inverted pendulum on a cart. The system consists of a freely-rotating rod attached to a cart, with the rod’s balance achieved through applying the correct forces to the cart. We manually tune the proportional, integral, and derivative gain coefficients of a Proportional Integral Derivative controller (PID) to balance a rod. To further improve PID performance, we can optimize an objective function to find better gain coefficients.
+- :computer: **Simulation**: Creating a simulation of a system enables the tuning of control systems without the need for a physical system.
+- :trophy: **PID**: In this research, we employ Lagrangian Mechanics to derive a set of equations to simulate an inverted pendulum on a cart. The system consists of a freely-rotating rod attached to a cart, with the rod’s balance achieved through applying the correct forces to the cart. We manually tune the proportional, integral, and derivative gain coefficients of a Proportional Integral Derivative controller (PID) to balance a rod. To further improve PID performance, we can optimize an objective function to find better gain coefficients.
+
+## Analysis <a name="analysis"></a>
+
+- Using Lagrangian Mechanics, we successfully modele the motion of an inverted pendulum on a cart when forces are applied onto the cart, which allow us to simulate the system and develop PID controllers for the system.
+- Both manual tuning and optimization-based tuning methods are used, we can use PID coefficients on optimization-based tuning, similar to those yielding positive results from manual tuning as the initial conditions, which facilitates the generation of highly optimized PID controllers.
 
 ## News <a name="news"></a>
 
 - **`2023/09`** PID paper is available on arXiv.
 
-## Getting Started <a name="start"></a>
-
-## Analysis <a name="analysis"></a>
-
 ## TODO <a name="todos"></a>
-- [ ] All configs & checkpoints
-- [x] Bug fixes
+- [ ] More sophisticated methods like linear quadratic regulator (LQR) and model predictive control (MPC) could have been used, which would allow for swing-up and swing-down of the rod [5].
+- [ ] Learning-based controllers such as imitation learning and reinforcement learning can also be tried.
+- [x] More accurate physics models can be derived with optimization or learning-based system identification techniques.
+- [x] Compare simulation physics with real-life physics.
+- [x] Bugs fix
 
 ## License <a name="license"></a>
 
@@ -51,3 +53,7 @@ Please consider citing our paper if the project helps your research with the fol
 ## Resource
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+- [EKF](https://github.com/BubblyBingBong/EKF) (:rocket:Ours!)
+- Visioli, A. (2006). Practical PID control. Springer Science & Business Media.
+- Rawlings, J. B. (2000). Tutorial overview of model predictive control. IEEE control systems magazine, 20(3), 38-52.
+
