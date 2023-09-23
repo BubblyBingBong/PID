@@ -7,7 +7,7 @@
   <a href="https://arxiv.org">arXiv</a>
 </h3>
 
-![teaser](sources/pid.mov)
+https://github.com/BubblyBingBong/PID/blob/main/sources/pid.mov
 
 ![teaser](sources/pid.png)
 
