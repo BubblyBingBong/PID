@@ -7,7 +7,7 @@
   <a href="https://arxiv.org">arXiv</a>
 </h3>
 
-https://github.com/BubblyBingBong/PID/assets/56773653/a41a83c1-9365-4bb4-9c6a-360b56b39e51
+https://github.com/BubblyBingBong/PID/assets/56773653/c3ec9d1c-9d0f-41ef-b38c-1ef65a2e7ec4
 
 ## Table of Contents:
 1. [Abstract](#abstract)
@@ -30,7 +30,7 @@ https://github.com/BubblyBingBong/PID/assets/56773653/a41a83c1-9365-4bb4-9c6a-36
 
 ## News <a name="news"></a>
 
-- **`2023/09`** PID paper is available on arXiv.
+- **`09/2023`** PID paper is available on arXiv.
 
 ## TODO <a name="todos"></a>
 - [ ] More sophisticated methods like linear quadratic regulator (LQR) and model predictive control (MPC) could have been used, which would allow for swing-up and swing-down of the rod [5].
@@ -48,6 +48,7 @@ All assets and code are under the [Apache 2.0 license](./LICENSE) unless specifi
 Please consider citing our paper if the project helps your research with the following BibTex:
 
 ```bibtex
+
 ```
 
 ## Resource
@@ -56,4 +57,7 @@ Please consider citing our paper if the project helps your research with the fol
 - [EKF](https://github.com/BubblyBingBong/EKF) (:rocket:Ours!)
 - Visioli, A. (2006). Practical PID control. Springer Science & Business Media.
 - Rawlings, J. B. (2000). Tutorial overview of model predictive control. IEEE control systems magazine, 20(3), 38-52.
+- Samak, C. V., Samak, T. V., & Kandhasamy, S. (2021). Control strategies for autonomous vehicles. In Autonomous Driving and Advanced Driver-Assistance Systems (ADAS) (pp. 37-86). CRC Press.
+- Brizard, A. J. (2014). Introduction To Lagrangian Mechanics, An. World Scientific Publishing Company.
+- Bemporad, A., Morari, M., Dua, V., & Pistikopoulos, E. N. (2002). The explicit linear quadratic regulator for constrained systems. Automatica, 38(1), 3-20.
 
