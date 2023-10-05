@@ -44,5 +44,3 @@ plt.xlabel("time (s)")
 plt.ylabel("rad/s")
 
 plt.show()
-
-

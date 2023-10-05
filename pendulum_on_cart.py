@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from Util import System, PID, angle_wrap
 from Optimizer import scipy_optimized_pid, casadi_optimized_pid
 
-#####
+
 loop_time = 0.001  # seconds
 run_time = 15
 initial_state = [0, 0, 0, np.pi / 4, 0, 0]
@@ -21,7 +21,7 @@ sim = System(m=5, M=5, L=1, mu=0.3, initial_state=initial_state, dt=loop_time)
 # p, i, d = [-289.56760579,  -77.18117922,  -60.64829768]
 p, i, d = [-289.57, -77.18, -60.65]
 pid = PID(p, i, d, loop_time)
-#####
+
 
 current_time = 0
 applied_forces = []

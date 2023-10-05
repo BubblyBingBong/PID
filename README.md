@@ -28,9 +28,9 @@ https://github.com/BubblyBingBong/PID/assets/56773653/c3ec9d1c-9d0f-41ef-b38c-1e
 - Both manual tuning and optimization-based tuning methods are used, we can use PID coefficients on optimization-based tuning, similar to those yielding positive results from manual tuning as the initial conditions, which facilitates the generation of highly optimized PID controllers.
 
 ## News <a name="news"></a>
-- **`09/2023`** PID [paper](https://arxiv.org/abs/2310.00016) is available on arXiv.
-- **`09/2023`** Code initial release `v1.0`.
-- **`06/2023`** SIP (Science Internship Program) side project summer 2023
+- **`Sep-Oct 2023`** Code initial release `v1.0` with bug fix.
+- **`Jul-Sep 2023`** Prepare PID [paper](https://arxiv.org/abs/2310.00016) for arXiv and journal.
+- **`Jun-Sep 2023`** Summer 2023 SIP (Science Internship Program) side project with Polygence review.
 
 ## TODO <a name="todos"></a>
 - [ ] More sophisticated methods like linear quadratic regulator (LQR) and model predictive control (MPC) could have been used, which would allow for swing-up and swing-down of the rod [5].
