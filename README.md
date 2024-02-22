@@ -28,6 +28,7 @@ https://github.com/BubblyBingBong/PID/assets/56773653/c3ec9d1c-9d0f-41ef-b38c-1e
 - Both manual tuning and optimization-based tuning methods are used, we can use PID coefficients on optimization-based tuning, similar to those yielding positive results from manual tuning as the initial conditions, which facilitates the generation of highly optimized PID controllers.
 
 ## News <a name="news"></a>
+- **`Feb-15 2024`** PID paper is accepted by [Journal of Student Research](https://www.jsr.org/hs/index.php/path) for publication.
 - **`Sep-Oct 2023`** Code initial release `v1.0` with bug fix.
 - **`Jul-Sep 2023`** Prepare PID [paper](https://arxiv.org/abs/2310.00016) for arXiv and journal.
 - **`Jun-Sep 2023`** Summer 2023 SIP (Science Internship Program) side project with Polygence review.
@@ -57,7 +58,7 @@ Please consider citing our paper if the project helps your research with the fol
 
 ## Resource
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-- [EKF](https://github.com/BubblyBingBong/EKF) (:rocket:Ours!)
+- [EKF](https://github.com/BubblyBingBong/EKF) ( :rocket:Ours!)
 - Visioli, A. (2006). Practical PID control. Springer Science & Business Media.
 - Rawlings, J. B. (2000). Tutorial overview of model predictive control. IEEE control systems magazine, 20(3), 38-52.
 - Samak, C. V., Samak, T. V., & Kandhasamy, S. (2021). Control strategies for autonomous vehicles. In Autonomous Driving and Advanced Driver-Assistance Systems (ADAS) (pp. 37-86). CRC Press.
