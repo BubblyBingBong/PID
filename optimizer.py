@@ -8,7 +8,7 @@ loop_time = 0.001  # seconds
 run_time = 15
 initial_state = [0, 0, 0, np.pi / 4, 0, 0]
 
-options = {'maxiter': 5000}
+options = {"maxiter": 5000}
 
 
 def objective(x):
@@ -41,17 +41,17 @@ def scipy_optimized_pid():
 
 
 def casadi_optimized_pid():
-    p = casadi.MX.sym('p')
-    i = casadi.MX.sym('i')
-    d = casadi.MX.sym('d')
+    p = casadi.MX.sym("p")
+    i = casadi.MX.sym("i")
+    d = casadi.MX.sym("d")
     obj = objective([p, i, d])
-    nlp = {'x': casadi.vertcat(p, i, d), 'f': objective}
-    solver = casadi.nlpsol('solver', 'ipopt', nlp)
+    nlp = {"x": casadi.vertcat(p, i, d), "f": objective}
+    solver = casadi.nlpsol("solver", "ipopt", nlp)
     solution = solver(x0=[0, 0, 0])
-    minimum = solution['f']
-    optimal_p = solution['p']
-    optimal_i = solution['i']
-    optimal_d = solution['d']
+    minimum = solution["f"]
+    optimal_p = solution["p"]
+    optimal_i = solution["i"]
+    optimal_d = solution["d"]
 
     print(minimum)
     print([optimal_p, optimal_i, optimal_d])

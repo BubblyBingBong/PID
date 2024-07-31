@@ -46,7 +46,7 @@ plt.figure(2)
 plt.plot(times, x)
 plt.ylabel("meters")
 plt.xlabel("Time (s)")
-plt.legend(['Cart Position'])
+plt.legend(["Cart Position"])
 
 plt.figure(3)
 plt.title("Applied Force vs Time")

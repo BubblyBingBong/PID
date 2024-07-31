@@ -27,13 +27,15 @@ class System:
         else:  # applied_force < 0
             net_force = applied_force + fric_force
 
-        prev_x, prev_x_vel, prev_x_acc, prev_theta, prev_theta_vel, prev_theta_acc = self.state
+        prev_x, prev_x_vel, prev_x_acc, prev_theta, prev_theta_vel, prev_theta_acc = (
+            self.state
+        )
         dt = self.dt
 
-        x = prev_x + prev_x_vel * dt + 1 / 2 * prev_x_acc * dt ** 2
+        x = prev_x + prev_x_vel * dt + 1 / 2 * prev_x_acc * dt**2
         x_vel = prev_x_vel + prev_x_acc * dt
 
-        theta = prev_theta + prev_theta_vel * dt + 1 / 2 * prev_theta_acc * dt ** 2
+        theta = prev_theta + prev_theta_vel * dt + 1 / 2 * prev_theta_acc * dt**2
         theta_vel = prev_theta_vel + prev_theta_acc * dt
 
         x_acc, theta_acc = self.get_accel(net_force)
@@ -48,13 +50,13 @@ class System:
 
         A = self.M + self.m
         B = -self.m * self.L * np.cos(theta)
-        C = self.m * self.L * theta_vel ** 2 * np.sin(theta) - net_force
+        C = self.m * self.L * theta_vel**2 * np.sin(theta) - net_force
         D = -np.cos(theta)
         E = self.L
         F = -g * np.sin(theta)
 
         x_accel = (F * B - C * E) / (A * E - D * B)
-        theta_accel = - (C + A * x_accel) / B
+        theta_accel = -(C + A * x_accel) / B
         return [x_accel, theta_accel]
 
 
