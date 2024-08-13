@@ -4,7 +4,7 @@
 </div>
 
 <h3 align="center">
-  <a href="https://www.jsr.org/hs/index.php/path/article/view/5956">JSR</a> |
+  <a href="https://doi.org/10.47611/jsrhs.v13i1.5956">JSR</a> |
   <a href="https://github.com/BubblyBingBong/PID/assets/56773653/c3ec9d1c-9d0f-41ef-b38c-1ef65a2e7ec4"> :arrow_down: Simulation :arrow_down: </a> |
   <a href="https://arxiv.org/abs/2310.00016">arXiv</a>
 </h3>
@@ -29,7 +29,7 @@ https://github.com/BubblyBingBong/PID/assets/56773653/c3ec9d1c-9d0f-41ef-b38c-1e
 - Both manual tuning and optimization-based tuning methods are used, we can use PID coefficients on optimization-based tuning, similar to those yielding positive results from manual tuning as the initial conditions, which facilitates the generation of highly optimized PID controllers.
 
 ## News <a name="news"></a>
-- **`Jan-Jun 2024`** PID publication on [Journal of Student Research](https://www.jsr.org/hs/index.php/path/article/view/5956) with FTC/FRC updates and bug fixes.
+- **`Jan-Jun 2024`** PID publication on [Journal of Student Research](https://doi.org/10.47611/jsrhs.v13i1.5956) with FTC/FRC updates and bug fixes.
 - **`Sep-Dec 2023`** PID `v2.0` for [FIRST Tech Challenge](https://www.firstinspires.org/robotics/ftc) and [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) deployment.
 - **`Jul-Sep 2023`** PID research submission for [arXiv](https://arxiv.org/abs/2310.00016) and Journal of Student Research.
 - **`Jun-Aug 2023`** PID `v1.0` for [Science Internship Program](https://sip.ucsc.edu) and [Polygence](https://www.polygence.org/scholars/ethan-kou) during summer 2023.
@@ -47,15 +47,16 @@ All assets and code are under the [Apache 2.0 license](./LICENSE) unless specifi
 ## Citation <a name="citation"></a>
 Please consider citing our paper if the project helps your research with the following information:
 ```
-@misc{kou2023pidoptimizationusinglagrangian,
-      title={PID Optimization Using Lagrangian Mechanics}, 
-      author={Ethan Kou and Majid Moghadam},
-      year={2023},
-      eprint={2310.00016},
-      archivePrefix={arXiv},
-      primaryClass={eess.SY},
-      url={https://arxiv.org/abs/2310.00016}, 
-}
+Kou, E., & Moghadam, M. (2024). 
+PID Optimization Tuning Using Lagrangian Mechanics. 
+Journal of Student Research, 13(1). 
+https://doi.org/10.47611/jsrhs.v13i1.5956
+```
+As well as citation in IEEE/ACS/ABNT formats as reference:
+```
+E. Kou and M. Moghadam, “PID Optimization Tuning Using Lagrangian Mechanics”, J Stud Res, vol. 13, no. 1, Feb. 2024.
+Kou, E.; Moghadam, M. PID Optimization Tuning Using Lagrangian Mechanics. J Stud Res 2024, 13.
+KOU, E.; MOGHADAM, M. PID Optimization Tuning Using Lagrangian Mechanics. Journal of Student Research, v. 13, n. 1, 28 Feb. 2024.
 ```
 
 ## Resource
