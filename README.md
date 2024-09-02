@@ -21,7 +21,7 @@ https://github.com/BubblyBingBong/PID/assets/56773653/c3ec9d1c-9d0f-41ef-b38c-1e
 7. [Resource](#resource)
 
 ## Abstract <a name="high"></a>
-- :computer: **Simulation**: Creating a simulation of a system enables the tuning of control systems without the need for a physical system.
+- :robot: **Control & Simulation**: Creating a simulation of a system enables the tuning of control systems without the need for a physical system.
 - :trophy: **PID**: In this research, we employ Lagrangian Mechanics to derive a set of equations to simulate an inverted pendulum on a cart. The system consists of a freely-rotating rod attached to a cart, with the rod’s balance achieved through applying the correct forces to the cart. We manually tune the proportional, integral, and derivative gain coefficients of a Proportional Integral Derivative controller (PID) to balance a rod. To further improve PID performance, we can optimize an objective function to find better gain coefficients.
 
 ## Analysis <a name="analysis"></a>
